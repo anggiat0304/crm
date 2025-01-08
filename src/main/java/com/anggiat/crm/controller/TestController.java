@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/crm")
 public class TestController {
     @GetMapping("/test")
-    public ResponseEntity<?> helloWorld(){
+    public ResponseEntity<String> helloWorld(){
         return new ResponseEntity<>("Hello World",HttpStatus.OK);
     }
 }
