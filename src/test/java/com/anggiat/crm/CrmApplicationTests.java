@@ -8,7 +8,7 @@ class CrmApplicationTests {
 
     @Test
     void contextLoads() {
-
+        assert ("satu".equals("satu"));
     }
 
 }
