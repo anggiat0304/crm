@@ -14,7 +14,7 @@ class CrmApplicationTests {
     @Test
     void contextLoads() {
         CrmApplication.main(new String[] {});
-        assertThat("anggiat").isEqualTo("anggiat");
+        assertThat("anggiat").isNotEqualTo("anggiats");
     }
 
 }
